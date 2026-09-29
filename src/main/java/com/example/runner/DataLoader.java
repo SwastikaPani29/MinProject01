@@ -63,7 +63,7 @@ private CitizenPlanRepo repo;
 		c5.setCitizenName("Robert");
 		c5.setGender("Male");
 		c5.setPlanName("Food");
-		c5.setPlanStatus("Apprroved");
+		c5.setPlanStatus("Approved");
 		c5.setBenefitAmt(5000.00);
 		c5.setPlanStartDate(LocalDate.now());
 		c5.setPlanEndDate(LocalDate.now().plusMonths(6));
