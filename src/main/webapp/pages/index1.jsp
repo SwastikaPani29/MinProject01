@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
  <div class="container">
 	<h3>Report  Application</h3>
-	<frm:form action="search"  modelAttribute="search" method="post">
+	<frm:form action="/ "  modelAttribute="search" method="get">
 		
 	<table>
 		<tr>
@@ -38,6 +38,7 @@
 		<tr>
 			<td>gender:</td>
 			<td><frm:select path="gender">
+				<frm:option value="">select</frm:option>
 				<frm:option value="Male">Male</frm:option>
 				
 				<frm:option value="FeMale">FeMale</frm:option>
